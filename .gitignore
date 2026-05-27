@@ -12,6 +12,8 @@ dist/
 
 # But keep these specific files
 !.eslintrc.js
+!jest.config.js
+
 
 # IDE
 .vscode/
@@ -44,3 +46,4 @@ temp/
 
 # MCP servers
 .playwright-mcp/
+
