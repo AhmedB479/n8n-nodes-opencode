@@ -108,7 +108,7 @@ describe("OpenCodeChatModel", () => {
             agent: "build",
             model: {
               providerID: "anthropic",
-              modelID: "claude-3-5-sonnet-20241022",
+              id: "claude-3-5-sonnet-20241022",
             },
           }),
         }),
