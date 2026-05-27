@@ -159,7 +159,7 @@ export class OpenCodeChatModel extends BaseChatModel {
           agent: this.agent,
           model: {
             providerID: this.providerID,
-            modelID: this.modelID,
+            id: this.modelID,
           },
         }),
         signal: controller.signal,
@@ -247,10 +247,6 @@ export class OpenCodeChatModel extends BaseChatModel {
       // Build request body with optional parameters
       const body: Record<string, any> = {
         parts,
-        model: {
-          providerID: this.providerID,
-          modelID: this.modelID,
-        },
         agent: this.agent,
       };
 
